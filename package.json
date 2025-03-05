@@ -10,13 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconscout/unicons": "^4.2.0",
+    "@types/react-scroll": "^1.8.10",
+    "@types/scrollreveal": "^0.0.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0",
+    "react-scroll": "^1.9.3",
+    "react-typed": "^2.0.12",
+    "scrollreveal": "^4.0.9",
+    "styled-components": "^6.1.15",
+    "swiper": "^11.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/swiper": "^6.0.0",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
