@@ -15,7 +15,12 @@ export const AboutSection = () => {
               content management systems (CMS) like WordPress.
             </p>
             <div className="about-btn">
-              <button className="btn">Download CV</button>
+              <button className="btn">
+                {" "}
+                <a href="/cv.pdf" download>
+                  Download CV
+                </a>
+              </button>
             </div>
           </div>
         </div>

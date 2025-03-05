@@ -1012,6 +1012,7 @@ nav.scrolled {
   padding: 8px;
   border-radius: 50%;
   transition: all 0.3s ease;
+  margin-top: 6px;
 }
 
 .theme-toggle:hover {
@@ -1055,7 +1056,6 @@ nav.scrolled {
 .dark-mode .about-info,
 .dark-mode .contact-info::after {
   background: var(--color-white);
-  box-shadow: 0 2px 5px var(--first-shadow-color);
 }
 
 .dark-mode .testimonials-section {
@@ -1085,7 +1085,7 @@ nav.scrolled {
 }
 
 .dark-mode footer {
-  background: #121212;
+  border: 1px solid #2d2d2d;
 }
 
 .dark-mode .footer_menu_list a,
@@ -1477,4 +1477,42 @@ a {
 
 #devmobile {
   margin-top: 7px;
+}
+
+@media (max-width: 1024px) {
+  #devmobile {
+    padding: 8px 5px;
+    font-size: 10px;
+    width: 100%;
+    height: 3vh;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* --bnenw --  */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  color: #007bff; /* Blue color for active link */
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #007bff; /* Blue dot color */
+  border-radius: 50%;
 }

@@ -44,7 +44,7 @@ const ContactSection = () => {
         body: JSON.stringify(payload),
       });
 
-      console.log("Response status:", response.status);
+      // console.log("Response status:", response.status);
 
       if (!response.ok) {
         const errorData = await response.json();

@@ -72,21 +72,26 @@ export const Navbar = () => {
               <FiMoon size={20} className="theme-icon" />
             )}
           </button>
-          <button className="btn">
+          <button className="btn" id="devmobile">
             {" "}
-            <a href="/cv.pdf" download>Download CV</a>
+            <a href="/cv.pdf" download>
+              Download CV
+            </a>
           </button>
         </div>
 
         <div className="mobile-controls">
-          <button className="theme-toggle mobile-theme" id="devmobile" onClick={toggleTheme}>
+          <button className="theme-toggle mobile-theme" onClick={toggleTheme}>
             {isDarkMode ? (
               <FiSun size={20} className="theme-icon" />
             ) : (
               <FiMoon size={20} className="theme-icon" />
             )}
           </button>
-          <div className="nav-menu-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <div
+            className="nav-menu-btn"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
             {isMenuOpen ? <FiX size={28} /> : <FiMenu size={28} />}
           </div>
         </div>
