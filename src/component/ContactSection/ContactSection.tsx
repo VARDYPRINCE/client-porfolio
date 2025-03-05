@@ -33,7 +33,7 @@ const ContactSection = () => {
       ],
     };
 
-    console.log("Sending payload:", payload);
+    // console.log("Sending payload:", payload);
 
     try {
       const response = await fetch("https://sheetdb.io/api/v1/a2qbe5ae8rguu", {
