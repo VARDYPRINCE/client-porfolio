@@ -1349,10 +1349,11 @@ nav.scrolled {
   --accent-color: var(--second-color);
   --text-light: #ffffff;
 }
-.dark-mode .nav-menu {
+.dark-mode .nav-menu.responsive {
   background-color: black;
   /* background: rgba(26, 26, 26, 0.9); */
 }
+/* .nav-menu.responsive */
 
 .image-overlay {
   position: absolute;
